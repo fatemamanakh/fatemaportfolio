@@ -114,7 +114,7 @@ p {
 }
 #headers .navlist ul {
 	list-style: none;
-	position: absolute;
+	position: fixed;
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
 	height: 100vh;
@@ -128,7 +128,7 @@ p {
 	overflow-x: hidden;
 	transition: 0.5s ease left;
 }
-#header .navlist ul.active {
+#headers .navlist ul.active {
 	left: 0%;
 }
 #headers .navlist ul a {
@@ -464,6 +464,10 @@ p {
 	justify-content: center;
 	display: flex;
 }
+.headers .navbar .navlist ul {
+	display: none;
+  }
+  
 #about .col-right a {
 	font-size: 1.8rem;
 	font-weight: 500;
